@@ -15,6 +15,15 @@
 		9A22C9E01F8CB437006A30B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A22C9DF1F8CB437006A30B0 /* main.m */; };
 		9A22C9EA1F8CB438006A30B0 /* BeiJingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A22C9E91F8CB438006A30B0 /* BeiJingTests.m */; };
 		9A22C9F51F8CB438006A30B0 /* BeiJingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A22C9F41F8CB438006A30B0 /* BeiJingUITests.m */; };
+		9A22CA041F8CB674006A30B0 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A22CA031F8CB674006A30B0 /* ViewController1.m */; };
+		9A22CA0E1F8CCDFA006A30B0 /* AppDelegate+UMengPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A22CA0D1F8CCDFA006A30B0 /* AppDelegate+UMengPush.m */; };
+		9A22CA111F8CCE61006A30B0 /* HomeWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A22CA0F1F8CCE60006A30B0 /* HomeWebViewController.m */; };
+		9A22CA141F8CCEED006A30B0 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A22CA131F8CCEED006A30B0 /* WebKit.framework */; };
+		9A22CA161F8CCEF4006A30B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A22CA151F8CCEF4006A30B0 /* UIKit.framework */; };
+		9A22CA181F8CCEF9006A30B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A22CA171F8CCEF9006A30B0 /* Foundation.framework */; };
+		9A22CA1A1F8CD0D9006A30B0 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A22CA191F8CD0D9006A30B0 /* UserNotifications.framework */; };
+		9A22CA1D1F8CD336006A30B0 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A22CA1C1F8CD336006A30B0 /* libz.tbd */; };
+		9A22CA231F8CD62B006A30B0 /* libUMessage_Sdk_1.5.0a.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A22CA211F8CD62B006A30B0 /* libUMessage_Sdk_1.5.0a.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,20 @@
 		9A22C9F01F8CB438006A30B0 /* BeiJingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeiJingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A22C9F41F8CB438006A30B0 /* BeiJingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeiJingUITests.m; sourceTree = "<group>"; };
 		9A22C9F61F8CB438006A30B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A22CA021F8CB674006A30B0 /* ViewController1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		9A22CA031F8CB674006A30B0 /* ViewController1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
+		9A22CA0C1F8CCDFA006A30B0 /* AppDelegate+UMengPush.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+UMengPush.h"; sourceTree = "<group>"; };
+		9A22CA0D1F8CCDFA006A30B0 /* AppDelegate+UMengPush.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+UMengPush.m"; sourceTree = "<group>"; };
+		9A22CA0F1F8CCE60006A30B0 /* HomeWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeWebViewController.m; sourceTree = "<group>"; };
+		9A22CA101F8CCE61006A30B0 /* HomeWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeWebViewController.h; sourceTree = "<group>"; };
+		9A22CA131F8CCEED006A30B0 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		9A22CA151F8CCEF4006A30B0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9A22CA171F8CCEF9006A30B0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9A22CA191F8CD0D9006A30B0 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		9A22CA1B1F8CD0E4006A30B0 /* BeiJing.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BeiJing.entitlements; sourceTree = "<group>"; };
+		9A22CA1C1F8CD336006A30B0 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		9A22CA211F8CD62B006A30B0 /* libUMessage_Sdk_1.5.0a.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMessage_Sdk_1.5.0a.a; sourceTree = "<group>"; };
+		9A22CA221F8CD62B006A30B0 /* UMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMessage.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +81,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A22CA1D1F8CD336006A30B0 /* libz.tbd in Frameworks */,
+				9A22CA1A1F8CD0D9006A30B0 /* UserNotifications.framework in Frameworks */,
+				9A22CA181F8CCEF9006A30B0 /* Foundation.framework in Frameworks */,
+				9A22CA231F8CD62B006A30B0 /* libUMessage_Sdk_1.5.0a.a in Frameworks */,
+				9A22CA161F8CCEF4006A30B0 /* UIKit.framework in Frameworks */,
+				9A22CA141F8CCEED006A30B0 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +114,7 @@
 				9A22C9E81F8CB437006A30B0 /* BeiJingTests */,
 				9A22C9F31F8CB438006A30B0 /* BeiJingUITests */,
 				9A22C9CE1F8CB437006A30B0 /* Products */,
+				9A22CA121F8CCEED006A30B0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,12 +131,20 @@
 		9A22C9CF1F8CB437006A30B0 /* BeiJing */ = {
 			isa = PBXGroup;
 			children = (
+				9A22CA1E1F8CD62B006A30B0 /* ThirdPart */,
+				9A22CA1B1F8CD0E4006A30B0 /* BeiJing.entitlements */,
 				9A22C9D01F8CB437006A30B0 /* AppDelegate.h */,
 				9A22C9D11F8CB437006A30B0 /* AppDelegate.m */,
 				9A22C9D31F8CB437006A30B0 /* ViewController.h */,
 				9A22C9D41F8CB437006A30B0 /* ViewController.m */,
-				9A22C9D61F8CB437006A30B0 /* Main.storyboard */,
+				9A22CA021F8CB674006A30B0 /* ViewController1.h */,
+				9A22CA031F8CB674006A30B0 /* ViewController1.m */,
+				9A22CA0C1F8CCDFA006A30B0 /* AppDelegate+UMengPush.h */,
+				9A22CA0D1F8CCDFA006A30B0 /* AppDelegate+UMengPush.m */,
+				9A22CA101F8CCE61006A30B0 /* HomeWebViewController.h */,
+				9A22CA0F1F8CCE60006A30B0 /* HomeWebViewController.m */,
 				9A22C9D91F8CB437006A30B0 /* Assets.xcassets */,
+				9A22C9D61F8CB437006A30B0 /* Main.storyboard */,
 				9A22C9DB1F8CB437006A30B0 /* LaunchScreen.storyboard */,
 				9A22C9DE1F8CB437006A30B0 /* Info.plist */,
 				9A22C9DF1F8CB437006A30B0 /* main.m */,
@@ -130,6 +168,43 @@
 				9A22C9F61F8CB438006A30B0 /* Info.plist */,
 			);
 			path = BeiJingUITests;
+			sourceTree = "<group>";
+		};
+		9A22CA121F8CCEED006A30B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A22CA1C1F8CD336006A30B0 /* libz.tbd */,
+				9A22CA191F8CD0D9006A30B0 /* UserNotifications.framework */,
+				9A22CA171F8CCEF9006A30B0 /* Foundation.framework */,
+				9A22CA151F8CCEF4006A30B0 /* UIKit.framework */,
+				9A22CA131F8CCEED006A30B0 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A22CA1E1F8CD62B006A30B0 /* ThirdPart */ = {
+			isa = PBXGroup;
+			children = (
+				9A22CA1F1F8CD62B006A30B0 /* UmengPush */,
+			);
+			path = ThirdPart;
+			sourceTree = "<group>";
+		};
+		9A22CA1F1F8CD62B006A30B0 /* UmengPush */ = {
+			isa = PBXGroup;
+			children = (
+				9A22CA201F8CD62B006A30B0 /* UMessage_Sdk_1.5.0a */,
+			);
+			path = UmengPush;
+			sourceTree = "<group>";
+		};
+		9A22CA201F8CD62B006A30B0 /* UMessage_Sdk_1.5.0a */ = {
+			isa = PBXGroup;
+			children = (
+				9A22CA211F8CD62B006A30B0 /* libUMessage_Sdk_1.5.0a.a */,
+				9A22CA221F8CD62B006A30B0 /* UMessage.h */,
+			);
+			path = UMessage_Sdk_1.5.0a;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +274,12 @@
 				TargetAttributes = {
 					9A22C9CC1F8CB437006A30B0 = {
 						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					9A22C9E41F8CB437006A30B0 = {
 						CreatedOnToolsVersion = 9.0;
@@ -265,8 +345,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A22CA111F8CCE61006A30B0 /* HomeWebViewController.m in Sources */,
+				9A22CA041F8CB674006A30B0 /* ViewController1.m in Sources */,
 				9A22C9D51F8CB437006A30B0 /* ViewController.m in Sources */,
 				9A22C9E01F8CB437006A30B0 /* main.m in Sources */,
+				9A22CA0E1F8CCDFA006A30B0 /* AppDelegate+UMengPush.m in Sources */,
 				9A22C9D21F8CB437006A30B0 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,13 +513,31 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = BeiJing/BeiJing.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: BingFeng Dai (LV93DUC3RG)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 9RE475L7AE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/**",
+				);
 				INFOPLIST_FILE = BeiJing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = DYL.BeiJing;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BeiJing/ThirdPart/UmengPush/UMessage_Sdk_1.5.0a",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.beijing.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE = "f7fc802d-f80b-4631-9894-4f77af19cfc7";
+				PROVISIONING_PROFILE_SPECIFIER = TestDemoDistribution;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -444,13 +545,30 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = BeiJing/BeiJing.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 9RE475L7AE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/**",
+				);
 				INFOPLIST_FILE = BeiJing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = DYL.BeiJing;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BeiJing/ThirdPart/UmengPush/UMessage_Sdk_1.5.0a",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.beijing.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE = "f7fc802d-f80b-4631-9894-4f77af19cfc7";
+				PROVISIONING_PROFILE_SPECIFIER = TestDemoDistribution;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
